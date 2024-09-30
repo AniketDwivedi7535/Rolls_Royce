@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    scrollbar-width: none;
+}
+
+.bgimg {
+    background-image: url('../img/first.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: "Raleway", sans-serif;
+}
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+}
+.overlay {
+    position: absolute;
+    top: 35%;
+    left: 22%;
+    z-index: 1;
+}
+.overlay1 {
+    position: absolute;
+    top: 32%;
+    left: 40%;
+    z-index: 1;
+}
+.cdet{
+    height: 120vh;
+    width: 100%;
+    background-color: rgb(29, 28, 28);
+}
+.img-card{
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+@keyframes first{
+    0%{
+        height: 400px;
+        opacity: ;
+    }
+    100%{
+        height: 500px;
+    }
+
+    
+}
+.imgsize img:hover{
+    height: 450px;
+    width: 110%;
+    transition: 0.2s ease-in-out;
+}
+.footer{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.611),rgba(0, 0, 0, 0.611)),url('../img/foot5.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
